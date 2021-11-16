@@ -1,0 +1,16 @@
+[data-rsbs-overlay],
+[data-rsbs-backdrop],
+[data-rsbs-root]:after {
+  max-width: 451px;
+  width: 100%;
+  margin: auto;
+}
+
+[data-rsbs-header] {
+  height: 56px;
+}
+
+[data-rsbs-footer],
+[data-rsbs-header] {
+  cursor: default;
+}

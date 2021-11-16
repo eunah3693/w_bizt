@@ -1,0 +1,11 @@
+body,
+html {
+  height: 100vh;
+  /* web safari에서 하단 툴바가 footer을 가리는 이슈 */
+  /* height: -webkit-fill-available; */
+  overflow: hidden;
+}
+
+#root {
+  height: 100%;
+}

@@ -1,0 +1,303 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap");
+
+* {
+  font-family: "Noto Sans KR", sans-serif;
+  text-decoration: none;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+a:focus {
+  text-decoration: none;
+}
+a:hover,
+a:active {
+  text-decoration: none;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #c5c5c5;
+  border-radius: 20px;
+}
+::-webkit-scrollbar-track {
+  background-color: rgb(240, 240, 240);
+}
+
+p {
+  margin: 0;
+}
+.FontDarkGray {
+  color: darkgray;
+}
+
+.BoxGap {
+  background-color: gainsboro;
+}
+.BoxLightBackground {
+  background-color: rgb(240, 240, 240);
+}
+.SpaceBetween {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.FlexEnd {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.FlexStart {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.FlexCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.FlexRowWrap {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+/* font */
+.SubtitleCenter {
+  font-size: 16px;
+  text-align: center;
+  font-weight: bold;
+  margin: 30px 0;
+}
+.SubtitleLeft {
+  font-size: 16px;
+  text-align: left;
+  font-weight: bold;
+  margin: 30px 0;
+}
+.bold {
+  font-weight: bold;
+}
+
+/* button */
+.inputTag {
+  border: 0.5px solid rgb(209, 209, 209);
+  border-radius: 2px;
+  background-color: white;
+  padding: 10px 15px;
+  /* margin: 10px; */
+}
+.ButtonWhite {
+  border: 0.5px solid rgb(209, 209, 209);
+  border-radius: 2px;
+  background-color: white;
+  padding: 10px 15px;
+  /* margin: 10px; */
+}
+.ButtonOrange {
+  border: 0.5px solid rgb(209, 209, 209);
+  border-radius: 2px;
+  background-color: #071e55;
+  padding: 10px 15px;
+  /* margin: 10px; */
+}
+.ButtonLightOrange {
+  border: 0.5px solid rgb(209, 209, 209);
+  border-radius: 2px;
+  background-color: rgb(255, 222, 160);
+  padding: 10px 15px;
+  /* margin: 10px; */
+}
+.ButtonDisabled {
+  background-color: rgb(232, 232, 232);
+  border: 0.5px solid rgb(209, 209, 209);
+
+  /* color: white; */
+  padding: 10px 15px;
+  /* margin: 10px; */
+}
+.ButtonSelected {
+  background-color: white;
+  border: 1px solid rgb(255, 54, 88);
+  /* color: white; */
+  padding: 10px 15px;
+  /* margin: 10px; */
+}
+.ButtonConfirm {
+  background-color: #071e55;
+  color: white;
+  border-radius: 1px;
+  width: 100%;
+  margin: 20px 0;
+  border: none;
+  padding: 10px 20px;
+}
+
+/* padding */
+.Padding0px {
+  padding: 0px;
+}
+.Padding5px {
+  padding: 5px;
+}
+.Padding10px {
+  padding: 10px;
+}
+.Padding15px {
+  padding: 15px;
+}
+.Padding20px {
+  padding: 20px;
+}
+.MarginHor20px {
+  margin: 20px 0px;
+}
+.Margin0px {
+  margin: 0px;
+}
+.Margin5px {
+  margin: 5px;
+}
+.Margin10px {
+  margin: 10px;
+}
+.Margin15px {
+  margin: 15px;
+}
+.Margin20px {
+  margin: 20px;
+}
+.Margin-5px {
+  margin-left: -5px;
+}
+
+/* Header fontweight */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 500;
+}
+
+/* 좌석정보 */
+.Seat {
+  width: 15px;
+  height: 15px;
+  margin-right: 5px;
+}
+.Disabled {
+  background-color: rgb(232, 232, 232);
+  border: 0.5px solid rgb(209, 209, 209);
+}
+.Selected {
+  background-color: white;
+  border: 0.5px solid #071e55;
+}
+.WhiteBackground {
+  background-color: white;
+  border: 0.5px solid rgb(209, 209, 209);
+}
+.OrangeBackground {
+  border: 0.5px solid rgb(209, 209, 209);
+  background-color: #3968da;
+}
+.LightOrangeBackground {
+  border: 0.5px solid rgb(209, 209, 209);
+  background-color: #6ec8e2;
+}
+
+/* 아이폰 크로스브라우징 */
+
+input,
+textarea {
+  -webkit-appearance: none;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+}
+input:focus {
+  outline: none;
+}
+
+.PositionRelative {
+  position: relative;
+}
+
+.imgWrapper img {
+  display: block;
+  width: 100%;
+}
+
+.login-wrapper {
+  border: 1px solid #e7e7e7;
+  margin: 150px 100px;
+  border-radius: 20px;
+}
+.MuiTouchRipple-root {
+  display: none;
+}
+
+/* .MuiButton-outlinedPrimary:hover {
+  background-color: #071e55;
+}
+.MuiButton-root:hover {
+  text-decoration: none;
+  background-color: #071e55;
+}
+.MuiButoonBase-root:hover {
+  text-decoration: none;
+  background-color: #071e55;
+} */
+.MuiDrawer-paperAnchorRight {
+  left: 0;
+  right: 0;
+}
+.MuiDialogTitle-root {
+  font-size: 18px;
+  text-align: center;
+  padding-top: 15px;
+  min-width: 300px;
+}
+/* 메인버튼 */
+.wideBtn {
+  flex: 1 1 auto;
+  margin: 14px 12px;
+  padding: 10px 0px;
+  background-color: #071e55;
+  border-radius: "0px";
+  color: #fff;
+  text-align: center;
+}
+.wideBtnWrapper {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+.root {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.body {
+  flex: 1 0 auto;
+  padding: 0 20px;
+}
+.foot {
+  flex: 0 0 56px;
+}
